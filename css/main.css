@@ -1,0 +1,783 @@
+* {
+  font-family: "Montserrat";
+}
+
+.fa-solid,
+.fas {
+  font-family: "Font Awesome 6 Pro";
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  z-index: 10;
+  top: 0;
+  position: sticky;
+}
+
+.header .menu {
+  background-color: white;
+  display: flex;
+  height: 70px;
+  justify-content: space-evenly;
+}
+
+.header .menu .navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  width: 70%;
+}
+
+.header .menu .navbar a {
+  font-weight: 550;
+  text-decoration: none;
+  line-height: 50px;
+  color: black;
+}
+
+.header .menu .navbar a:hover {
+  color: crimson;
+}
+
+.header .menu .navbar img {
+  width: 20px;
+}
+
+.logo {
+  text-align: right;
+  width: 25%;
+}
+
+.logo img {
+  padding-top: 8px;
+  height: 80%;
+}
+
+.header .block {
+  height: 6px;
+  background-color: #c59d5f;
+}
+
+.sec {
+  width: 85%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec .discount {
+  width: 48%;
+  position: relative;
+}
+
+.sec .discount img:nth-of-type(2) {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+}
+
+.sec .about {
+  width: 48%;
+}
+
+.sec .about h1 {
+  font-size: 215%;
+  font-family: src("mo");
+  color: #086050;
+}
+
+.sec .about p {
+  line-height: 1.5;
+  font-size: 105%;
+  color: #999;
+}
+
+.sec .about a {
+  margin: 50px 0px;
+  font-weight: 700;
+  text-shadow: 0px 0.5px #086050;
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 10px 25px;
+  color: #086050;
+  border: 2px solid #161716;
+  font-weight: 500;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+.third {
+  padding: 50px;
+}
+
+.third h1 {
+  text-align: center;
+}
+
+.third .products-container {
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.third .products {
+  background-color: white;
+  border-radius: 7%;
+  padding: 10px;
+  width: 20%;
+  border: 1px solid #e5e5e5;
+}
+
+.third .products img {
+  border-radius: 8%;
+  width: 100%;
+}
+
+.third .products .products-description {
+  margin: 0px 20px;
+}
+
+.third .products .stars {
+  word-spacing: -1px;
+  font-size: 25px;
+}
+
+.third .products h4 {
+  margin: 10px 0px;
+}
+
+.third .products h4:nth-of-type(2) {
+  color: crimson;
+}
+
+.third .products i {
+  font-size: 25px;
+  margin-bottom: 3%;
+  margin-left: 97%;
+  color: red;
+  text-align: right;
+}
+
+.third .button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.third .button-container button {
+  border: 1px solid #707070;
+  background-color: #707070;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.third .button-container button:active {
+  background-color: #086050;
+  padding: 4px 10px;
+  border-radius: 5px;
+  border: 1px solid #086050;
+}
+
+.fourth {
+  text-align: center;
+}
+
+.fourth h2 {
+  padding-top: 50px;
+  margin: 0;
+}
+
+.fourth h1 {
+  color: #086050;
+  text-transform: uppercase;
+}
+
+.fourth .burger-features {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fourth .burger-features .burger {
+  width: 40%;
+}
+
+.fourth .burger-features .burger img {
+  width: 100%;
+}
+
+.fourth .burger-features .features {
+  width: 25%;
+}
+
+.fourth .burger-features .features > div {
+  margin-top: 100px;
+}
+
+.third,
+.fourth,
+.sixth {
+  background-color: #fbf7ef;
+}
+
+.fifth {
+  margin: 100px 0px;
+  gap: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.fifth > div {
+  color: white;
+  padding: 40px 20px 50px 20px;
+  width: 23%;
+  background-image: url(../img/sales-bg.webp);
+  background-size: 130%;
+  background-position: 50% 50%;
+}
+
+.fifth > div > div {
+  padding: 10px 200px 10px 10px;
+}
+
+.fifth div h1 {
+  margin: 0;
+}
+
+.fifth div p {
+  font-weight: 500;
+  font-size: 110%;
+}
+
+.fifth div a {
+  color: white;
+  font-weight: 700;
+  font-size: 110%;
+}
+
+.sixth {
+  padding: 50px;
+}
+
+.sixth h1 {
+  text-align: center;
+}
+
+.sixth .products-container {
+  flex-wrap: wrap;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.sixth .products {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 7%;
+  padding: 10px;
+  width: 20%;
+  border: 1px solid #e5e5e5;
+}
+
+.sixth .products img {
+  border-radius: 8%;
+  width: 100%;
+}
+
+.sixth .products .products-description {
+  margin: 0px 20px;
+}
+
+.sixth .products .stars {
+  word-spacing: -1px;
+  font-size: 25px;
+}
+
+.sixth .products h4 {
+  margin: 10px 0px;
+}
+
+.sixth .products h4:nth-of-type(2) {
+  color: crimson;
+}
+
+.sixth .products .fire {
+  margin-left: 90%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+
+.sixth .button {
+  margin: 30px;
+  text-align: center;
+}
+
+.sixth .button input {
+  font-weight: 600;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 10px;
+  padding: 15px 30px;
+  background-color: #086050;
+  color: white;
+}
+
+.sixth .button input:hover {
+  background-color: red;
+}
+
+.seventh {
+  margin: 50px 0px;
+  justify-content: center;
+  display: flex;
+}
+
+.seventh .picture {
+  width: 40%;
+}
+
+.seventh .picture img {
+  width: 100%;
+}
+
+.seventh .description {
+  width: 40%;
+}
+
+.seventh .description h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #086050;
+}
+
+.seventh .description .features {
+  gap: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.seventh .description .features > div {
+  margin-top: 30px;
+  background-color: #fbf7ef;
+  width: 46%;
+}
+
+.seventh .description .features > div > div {
+  padding: 30px 15px;
+}
+
+.seventh .description .features div i {
+  color: #c59d5f;
+}
+
+.eighth {
+  padding: 50px 0px;
+  background-color: #fbf7ef;
+}
+
+.eighth .top-container {
+  padding: 0px 50px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.eighth .top-container .top-image {
+  width: 15%;
+}
+
+.eighth .top-container .top-image img {
+  width: auto;
+}
+
+.eighth .top-container .title {
+  text-align: center;
+  width: 45%;
+}
+
+.eighth .top-container .title h1 {
+  font-size: 210%;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.eighth .top-container .title h4,
+h1 {
+  margin-top: 40px;
+}
+
+.eighth .chef-container {
+  margin-top: 40px;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.eighth .chef {
+  position: relative;
+  background-color: white;
+  border-radius: 3%;
+  width: 19.1%;
+  border: 1px solid #e5e5e5;
+}
+
+.eighth .chef img {
+  border-radius: 3%;
+  width: 100%;
+}
+
+.eighth .chef .chef-description {
+  margin: 0px 20px;
+}
+
+.eighth .chef-container .chef .long-vertical-line {
+  top: 370px;
+  left: 10px;
+  position: absolute;
+  width: 2.5px;
+  background-color: #086050;
+  height: 45px;
+}
+
+.eighth .chef-container .chef .short-vertical-line {
+  top: 370px;
+  left: 17px;
+  position: absolute;
+  width: 1.5px;
+  background-color: #086050;
+  height: 20px;
+}
+
+.eighth .chef h4,
+h5 {
+  font-weight: 540;
+  color: #086050;
+  margin: 13px;
+}
+
+.ninth {
+  height: fit-content;
+  width: 100%;
+  position: relative;
+  padding: 50px 0px;
+}
+
+.ninth .all-about {
+  width: 36%;
+  text-align: center;
+  margin: auto;
+}
+
+.ninth .all-about h1,
+h4 {
+  font-weight: 500;
+  margin: 20px;
+}
+
+.ninth .all-about h1 {
+  text-transform: uppercase;
+  color: #086050;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.ninth .all-about .customer {
+  gap: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.ninth .all-about .customer img {
+  padding: 10px;
+  object-position: center;
+  object-fit: contain;
+  border-radius: 100%;
+}
+
+.ninth .all-about i {
+  margin: 20px 0px;
+  font-size: 25px;
+  color: #f5c25a;
+}
+
+.ninth .all-about p {
+  font-weight: 500;
+  color: #707070;
+  font-size: large;
+  line-height: 1.5;
+}
+
+.ninth .floating-image:nth-of-type(1) {
+  position: absolute;
+  top: 50%;
+}
+
+.ninth .floating-image:nth-of-type(2) {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.ninth .floating-image:nth-of-type(3) {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+}
+
+.tenth {
+  background-color: #fbf7ef;
+  padding: 80px 0px;
+}
+
+.tenth .big-container {
+  padding: 70px 150px;
+  background-image: url(../img/booking-bg-2-1930.png);
+  background-position: 40% 0%;
+  background-size: cover;
+}
+
+.tenth .big-container .table-reserve-form {
+  width: 550px;
+}
+
+.tenth .big-container .table-reserve-form h1 {
+  font-weight: 800;
+  color: white;
+}
+
+.tenth .big-container .table-reserve-form input,
+textarea {
+  margin: 17px 0px;
+  padding: 13px 25px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.tenth .big-container .table-reserve-form textarea {
+  height: 110px;
+}
+
+.tenth .big-container .table-reserve-form a {
+  font-size: large;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 15px 40px;
+  color: white;
+  background-color: #086050;
+}
+
+.eleventh {
+  padding: 50px 0px;
+  background-color: #fbf7ef;
+}
+
+.eleventh h1 {
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.eleventh .news-container {
+  gap: 1.5%;
+  justify-content: center;
+  display: flex;
+}
+
+.eleventh .news-container .news {
+  position: relative;
+  background-color: white;
+  border-radius: 3%;
+  width: 27%;
+  height: fit-content;
+}
+
+.eleventh .news-container .news .visible {
+  width: 100%;
+}
+
+.eleventh .news-container .news .visible img {
+  border-radius: 3%;
+  width: 100%;
+}
+
+.eleventh .news-container .news .visible h4,
+h6 {
+  margin: 20px 25px;
+}
+
+.eleventh .news-container .news .visible h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.eleventh .news-container .news .visible h6 {
+  font-weight: 500;
+  font-size: 12px;
+  color: #707070;
+}
+
+.eleventh .news-container .news .visible .Readmore {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  top: -1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.eleventh .news-container .news .visible .Readmore p {
+  color: #707070;
+}
+
+.eleventh .news-container .news .visible .Readmore a {
+  text-decoration: none;
+  color: #086050;
+  border-radius: 5px;
+  border: 2px solid #086050;
+  padding: 10px;
+  display: inline-block;
+}
+
+.eleventh .news-container .news .visible:hover .Readmore {
+  z-index: 2;
+  height: 100%;
+}
+
+.twelfth {
+  padding: 50px 8.5%;
+  background-color: #fbf7ef;
+}
+
+.twelfth h1 {
+  font-weight: 800;
+  text-align: center;
+}
+
+.twelfth .video-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.twelfth .video-container .video {
+  margin: 10px 0px;
+  background-color: white;
+  width: 32.3%;
+  text-transform: capitalize;
+}
+
+.twelfth .video-container .video .video-title {
+  padding: 20px 5px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 450;
+}
+
+.twelfth .video-container .video .thumbnail {
+  position: relative;
+  padding-bottom: 60%;
+  display: block;
+}
+
+.twelfth .video-container .video .thumbnail img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.twelfth .video-container .video .thumbnail i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  font-size: 40px;
+  color: red;
+}
+
+.twelfth .video-container .video .thumbnail .middle-white-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+.footer {
+  color: white;
+  background-color: #c59d5f;
+  padding: 30px 9%;
+}
+
+.footer .info-container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer .info-container .info {
+  width: 23%;
+}
+
+.footer .info-container .info h2 {
+  margin: 0;
+  font-weight: 550;
+  font-size: 20px;
+} 
+
+.footer .info-container .info a {
+  color: white;
+}
+
+.footer .info-container .info p {
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.footer .info-container .info li {
+  line-height: 2;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.footer .info-container .info li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .info-container .info:nth-of-type(2), .info:nth-of-type(3) {
+  text-transform: capitalize;
+}
+
+.footer .line {
+  margin-top: 100px;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+.footer .copyright {
+  font-size: 14px;
+  text-align: right;
+}
